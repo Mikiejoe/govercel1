@@ -5,9 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-var app(
-	app *gin.Engine
-)
+var app *gin.Engine
 
 func routes(r *gin.RouterGroup) {
 	r.GET("/", func(c *gin.Context) {
