@@ -2,7 +2,7 @@
     "trailingSlash": false,
     "rewrites": [
         {
-            "source": "/api(.*",
+            "source": "/api(.*)",
             "destination": "/api/entrypoint.go"
         }
     ]
